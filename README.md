@@ -1,5 +1,9 @@
 UCLA Coding Boot Camp
 Week 2 Homework, part 2
+
+deployed to Heroku here:
+http://agile-garden-94204.herokuapp.com/portfolio.html
+
 A portfolio site powered by bootstrap, using this free theme:
 
 [Business Casual](http://startbootstrap.com/template-overviews/business-casual/) is a multipurpose website theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
