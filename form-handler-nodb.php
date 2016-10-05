@@ -2,7 +2,7 @@
 // Emails form data to you and the person submitting the form
 // This version requires no database.
 // Set your email below
-$myemail = "ENTER_YOUR_EMAIL_HERE"; // Replace with your email, please
+$myemail = "jesseharold@gmail.com"; // Replace with your email, please
 
 // Receive and sanitize input
 $name = $_POST['name'];
@@ -15,6 +15,6 @@ $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "
 $msg = wordwrap($msg,70);
 mail($myemail,"New Form Submission",$msg);
 mail($email,"Thank you for your form submission",$msg);
-echo 'Thank you for your submission.  Please <a href="index.html">Click here to return to our homepage.';
+echo 'Thank you for your reaching out.  <br><br><a href="index.html">Return to the homepage</a>.';
 
 ?>
