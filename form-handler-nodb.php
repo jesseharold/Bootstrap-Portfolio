@@ -15,6 +15,6 @@ $msg = "New contact form submission!\nName: " . $name . "\nEmail: " . $email . "
 $msg = wordwrap($msg,70);
 mail($myemail,"New Form Submission",$msg);
 mail($email,"Thank you for your form submission",$msg);
-echo 'Thank you for your reaching out.  <br><br><a href="index.html">Return to the homepage</a>.';
+echo 'Thank you for reaching out. I will respond to you within a few days. <br><br><a href="index.html">Return to the homepage</a>.';
 
 ?>
